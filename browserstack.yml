@@ -14,7 +14,7 @@ accessKey: cNzMri8gjijH5BSi8Khg
 projectName: My Demo BStack project JU5 Sample
 # Set `buildName` as the name of the job / testsuite being run
 
-# buildName: process.env.BROWSERSTACK_BUILD_NAME;
+buildName: <%= process.env.BROWSERSTACK_BUILD_NAME %>;
 
 
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
