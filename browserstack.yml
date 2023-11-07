@@ -13,7 +13,10 @@ accessKey: cNzMri8gjijH5BSi8Khg
 # Set 'projectName' to the name of your project. Example, Marketing Website
 projectName: My Demo BStack project JU5 Sample
 # Set `buildName` as the name of the job / testsuite being run
-buildName: browserstack-build-1 ju5 demo build
+
+# buildName: process.env.BROWSERSTACK_BUILD_NAME;
+
+
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution
