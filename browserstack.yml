@@ -44,18 +44,18 @@ platforms:
   #   osVersion: Big Sur
   #   browserName: Safari
   #   browserVersion: 14.1
-  - os: Windows
-    osVersion: 10
-    browserName: Firefox
-    browserVersion: 115.0
-  - os: OS X
-    osVersion: Catalina
-    browserName: Chrome
-    browserVersion: latest
-  - deviceName: Samsung Galaxy S23
-    osVersion: 13.0
-    browserName: chrome
-    deviceOrientation: portrait
+  # - os: Windows
+  #   osVersion: 10
+  #   browserName: Firefox
+  #   browserVersion: 115.0
+  # - os: OS X
+  #   osVersion: Catalina
+  #   browserName: Chrome
+  #   browserVersion: latest
+  # - deviceName: Samsung Galaxy S23
+  #   osVersion: 13.0
+  #   browserName: chrome
+  #   deviceOrientation: portrait
 
 # =======================
 # Parallels per Platform
